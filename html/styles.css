@@ -243,3 +243,8 @@ body {
 footer {
     margin-top: auto;
 }
+/*images*/
+.thinking-man-homepage{
+    width: 200px; 
+    left: 200px;
+}
