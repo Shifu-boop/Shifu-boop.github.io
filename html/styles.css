@@ -1,112 +1,148 @@
-*{
+* {
     padding: 0;
     margin: 0;
-    box-sizing: border-box; 
-font-family: sans-serif; 
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
-footer{
-     background-color: #111;
- }
- .footercontainer{
-     width: 100%;
-     padding: 70px 30px 20px;
- }
+
+footer {
+    background-color: #111;
+}
+
+.footercontainer {
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
 a {
-    color:rgb(0, 0, 0)
+    color: rgb(0, 0, 0)
 }
 
 h1 {
- font-family: Arial, Helvetica, sans-serif;   color: rgb(0, 0, 0); font-size: x; 
- margin-top :10%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: x;
+    margin-top: 10%;
+    text-align: center;
 }
-p {font-family: Arial, Helvetica, sans-serif;
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
 
 }
-a{font-family: Arial, Helvetica, sans-serif;
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
 
 }
-h2 {font-family: Arial, Helvetica, sans-serif; 
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
 
 }
-ul{
-font-family: Arial, Helvetica, sans-serif;
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
 }
-img{position: r;
+
+img {
+    position: r;
 
 }
-.topnav {background-color:rgba(17, 17, 17, 0.664); font-family:  Times, serif; 
-    padding: 5%;
+
+.topnav {
+    background-color: rgba(17, 17, 17, 0.664);
+    font-family: Times, serif;
+    padding: 2%;
     color: aliceblue;
     text-align: center;
-    }
-.topnav a {background-color: rgba(228, 180, 180, 0); padding-left: 2%; padding-right: 2%; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-font-size: 120%;  }
-a{ 
+}
+
+.topnav a {
+    background-color: rgba(228, 180, 180, 0);
+    padding-left: 2%;
+    padding-right: 2%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 120%;
+}
+
+a {
     text-decoration: none;
 }
-.socialIcons{
+
+.socialIcons {
     display: flex;
     justify-content: center;
 }
 
-.socialIcons a{
+.socialIcons a {
     text-decoration: none;
     padding: 10px;
     background-color: rgb(255, 255, 255);
     margin: 10px;
     border-radius: 50%;
 }
-.socialIcons a i{
+
+.socialIcons a i {
     font-size: 2em;
     color: black;
     opacity: 0.9;
 }
+
 /*hover effects on the social media icons*/
-.socialIcons a:hover{
-    background-color:#111;
+.socialIcons a:hover {
+    background-color: #111;
     transition: 0.5s;
 }
-.socialIcons a:hover i{
+
+.socialIcons a:hover i {
     color: rgb(255, 255, 255);
     transition: 0.5;
 }
 
 
 .footernav {
-margin: 30px;    
+    margin: 30px;
 }
-.footernav ul{
-    
+
+.footernav ul {
+
     display: flex;
     justify-content: center;
 }
-.footernav ul li a{
+
+.footernav ul li a {
     color: white;
     margin: 20px;
     text-decoration: none;
-    font-size:1.3em ;
+    font-size: 1.3em;
     opacity: 0.7;
-transition: 0.5s;
-}
-.footernav ul li a:hover{
-    opacity: 1 ;
-}
-.footerbottom{
-    background-color: #000000;
-    padding:20px 1;
-    text-align: center;
-}
-.footerbottom p{
-    color: white; font-family: 'Times New Roman', Times, serif;
+    transition: 0.5s;
 }
 
-*
-{margin: 0;
-padding: 0;
-box-sizing: border-box;
+.footernav ul li a:hover {
+    opacity: 1;
 }
+
+.footerbottom {
+    background-color: #000000;
+    padding: 20px 1;
+    text-align: center;
+}
+
+.footerbottom p {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /*sidebar code*/
-.container-side-bar{
+.container-side-bar {
     height: 100%;
     width: 250px;
     position: absolute;
@@ -115,25 +151,29 @@ box-sizing: border-box;
     transition: 0.5s ease;
     transform: translate(-250px);
 }
-.container-side-bar .head{
+
+.container-side-bar .head {
     color: #090909;
     font-size: 30px;
-    font-weight:bold;
-padding: 30px;
-text-transform: uppercase;
-text-align: center;
-letter-spacing: 3px;
-background: linear-gradient(30deg,#ffffff,#ffffff);
+    font-weight: bold;
+    padding: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    background: linear-gradient(30deg, #ffffff, #ffffff);
 }
-ol{
+
+ol {
     width: 100%;
-    list-style:none;
+    list-style: none;
 }
-ol li{
+
+ol li {
     display: block;
     width: 100%;
 }
-ol li a{
+
+ol li a {
     color: rgb(255, 255, 255);
     padding: 15px 10px;
     text-decoration: none;
@@ -144,24 +184,28 @@ ol li a{
     transition: 0.3s;
     overflow: hidden;
 }
-ol li a i{
-    width:70px ;
+
+ol li a i {
+    width: 70px;
     font-size: 25px;
     text-align: center;
     padding-left: 30px;
 }
-ol li:hover a{
+
+ol li:hover a {
     background-color: #ffffff;
     color: #000000;
-    letter-spacing:5px ;
+    letter-spacing: 5px;
 }
-input{
+
+input {
     -webkit-appearance: none;
     visibility: hidden;
     display: none;
 }
-span{
-    position:absolute ;
+
+span {
+    position: absolute;
     right: -40px;
     top: 30px;
     font-size: 25px;
@@ -170,29 +214,32 @@ span{
     padding: 3px 8px;
     cursor: pointer;
     background: #000000;
-} 
-#bars{
+}
+
+#bars {
     background: rgba(255, 0, 0, 0);
 
 }
-#check:checked~ .container-side-bar{
+
+#check:checked~.container-side-bar {
     transform: translateX(0);
 }
-#check:checked~ .container-side-bar #bars{
-display:none ;
-    }
+
+#check:checked~.container-side-bar #bars {
+    display: none;
+}
 
 /*Fixed footer code*/
-html{
+html {
     height: 100%;
 }
-body{
-    min-height: 100%;
-display: flex;
-flex-direction: column;
-}
-   footer{
-    margin-top: auto;
-   } 
-            
 
+body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+}
