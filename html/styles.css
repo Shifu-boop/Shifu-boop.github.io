@@ -6,13 +6,15 @@
 }
 
 footer {
-    background-color: #000000b0;
+    background-color: #111111;
 }
 
-.footercontainer {
+.footerContainer {
     width: 100%;
-    padding: 70px 30px 20px;
-    margin-top: 50px;
+    
+    margin-top: auto;
+    
+    
 }
 
 a {
@@ -30,9 +32,9 @@ h1 {
 p{
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
-
-
+    text-align: center;
 }
+
 
 p.main-paragrah1 {
     font-family: Arial, Helvetica, sans-serif;
@@ -45,6 +47,7 @@ p.main-paragrah2 {
     color: #ffffff;
    text-align: center;
     margin-top: 50px;
+    margin-bottom: 20px;
 
 }
 
@@ -68,6 +71,7 @@ ul {
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
     text-align: center;
+    list-style-type: none;
 }
 .why-it-fits{
     font-family: Arial, Helvetica, sans-serif;
@@ -283,7 +287,24 @@ footer {
     margin-left: auto;
    margin-right: auto;
 }
+.gaming-pc{
+    width: 25%;
 
+}
+.thinking-man{width: 25%;
+    display: block;
+    margin-left: auto;
+   margin-right: auto;}
+.profile-pic{
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+   }
 
 /*text main page*/
 .welcome{text-align: center;}
+/*text profile*/
+.introduction{
+    
+}
