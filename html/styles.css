@@ -12,6 +12,7 @@ footer {
 .footercontainer {
     width: 100%;
     padding: 70px 30px 20px;
+    margin-top: 50px;
 }
 
 a {
@@ -30,18 +31,19 @@ p{
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
 
+
 }
 
 p.main-paragrah1 {
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
-    margin-left: 30px;
+    text-align: center;
 
 }
 p.main-paragrah2 {
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
-    margin-left: 30px;
+   text-align: center;
     margin-top: 50px;
 
 }
@@ -65,7 +67,7 @@ h3{
 ul {
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
-    margin-left: 3Opx;
+    text-align: center;
 }
 .why-it-fits{
     font-family: Arial, Helvetica, sans-serif;
