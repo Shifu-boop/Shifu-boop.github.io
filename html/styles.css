@@ -328,52 +328,61 @@ margin-right: auto;
 
 /*faq dropdown text code*/
 
-.faq-wrapper{
-    display: flex;
-    padding-top: 50px;
-    justify-content: center;
+.accordion {
+    margin: 20px auto;
+    width: 600px;
 }
-.collapsible{
-    max-width: 450px;
-    overflow: hidden;
-    font-weight: 500;
-}
-.collapsible label{
-    position: relative;
-    font-weight: 600;
-    background: rgb(240, 240, 240);
-    box-shadow:rgb(0, 68, 255) ;
-    color: red;
-    display: block;
-    margin-bottom: 10px;
-    cursor: pointer;
-    padding: 15px 0;
-    border-radius: 4px;
-    text-align: center;
-}
-.collapsible label::after{
-    content: "";
-    position: absolute;
-    right: 15px;
-    top: 15px;
-    width: 15px;
-    height: 18px;
-   background: url(/img_and_logos/right-arrow-svgrepo-com.svg )no-repeat 0 0;
 
+.accordion li {
+    list-style: none;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    margin-bottom: 10px;
+    border-radius: 5px;
 }
-.collapsible-text{
-    max-height: 1px;
-    overflow: hidden;
-    border-radius: 4px;
-    min-height:1.4;
+
+.accordion label {
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+    padding: 10px;
+    background-color: #000000;
+    border-radius: 5px;
 }
-.collapsible .collapsible-text{
-    max height: 300px;
-    padding-bottom: 25px;
-    box-shadow:rgb(0, 68, 255);
-    background: #0000000;
+
+.accordion .faq-content {
+    max-height: 0; /* Initially collapsed */
+    overflow: hidden; /* Hide content beyond max-height */
+    transition: max-height 0.4s ease-in-out, padding 0.4s ease-in-out; /* Smooth transition */
+    padding: 0 10px; /* No padding initially */
+}
+
+.accordion .faq-content p {
+    margin: 0;
+    padding: 10px 0;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+/* When the input is checked, apply these styles */
+input[type="radio"]:checked + label + .faq-content {
+    max-height: 500px; /* Large enough height to accommodate the content */
+    padding: 10px; /* Add padding when expanded */
+}
+
+/* Optional: Add a hover effect for the labels */
+.accordion label:hover {
+    background-color: #b51010;
+}
+
+/*table monitor*/
+.table-heads{
+    color: #ffffff;
+    
     
 }
-.faq-text{
-    color: #000000;
+td{
+    color: white ;
 }
