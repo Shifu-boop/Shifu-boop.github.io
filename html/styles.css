@@ -317,7 +317,7 @@ footer {
 .text-box{
     border:5px solid ;
     border-width: 10px;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 1%;
 }
 
@@ -336,8 +336,8 @@ footer {
 .collapsible label{
     position: relative;
     font-weight: 600;
-    background: white;
-    box-shadow:red ;
+    background: rgb(240, 240, 240);
+    box-shadow:rgb(0, 68, 255) ;
     color: red;
     display: block;
     margin-bottom: 10px;
@@ -350,9 +350,25 @@ footer {
     content: "";
     position: absolute;
     right: 15px;
-    top: 20px;
-    width: 18px;
+    top: 15px;
+    width: 15px;
     height: 18px;
-   background: url(arrow.svg )no-repeat 0 0;
+   background: url(/img_and_logos/right-arrow-svgrepo-com.svg )no-repeat 0 0;
 
+}
+.collapsible-text{
+    max-height: 1px;
+    overflow: hidden;
+    border-radius: 4px;
+    min-height:1.4;
+}
+.collapsible .collapsible-text{
+    max height: 300px;
+    padding-bottom: 25px;
+    box-shadow:rgb(0, 68, 255);
+    background:#0000000 ;
+    
+}
+.faq-text{
+    color: #000000;
 }
