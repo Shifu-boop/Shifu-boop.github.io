@@ -316,10 +316,15 @@ footer {
 }
 .text-box{
     border:5px solid ;
-    border-width: 10px;
+    border-width: 5px;
     color: rgb(255, 255, 255);
     padding: 1%;
+    height: auto;
+    width: 300px;
+margin-left: auto;
+margin-right: auto;
 }
+
 
 /*faq dropdown text code*/
 
@@ -366,7 +371,7 @@ footer {
     max height: 300px;
     padding-bottom: 25px;
     box-shadow:rgb(0, 68, 255);
-    background:#0000000 ;
+    background: #0000000;
     
 }
 .faq-text{
