@@ -23,6 +23,10 @@ footer {
 a {
     color: rgb(255, 255, 255)
 }
+.faq-link{
+    color: #970808;
+    text-decoration: none;
+}
 
 h1 {
     font-family: Caslon, Mercury Display and Kis;
@@ -104,7 +108,7 @@ img {
     font-size: 120%;
 }
 
-a {
+.topnav-links{
     text-decoration: none;
 }
 
@@ -316,6 +320,10 @@ footer {
 }
 .active-page{
     color: #ff0000;
+    text-decoration: none;
+}
+.inactive-page{
+    text-decoration: none;
 }
 .text-box{
     border:5px solid ;
