@@ -241,7 +241,7 @@ ol li:hover a {
 }
 
 input {
-    -webkit-appearance: none;
+-webkit-appearance: none;
     visibility: hidden;
     display: none;
 }
@@ -362,10 +362,10 @@ margin-right: auto;
 }
 
 .accordion .faq-content {
-    max-height: 0; /* Initially collapsed */
-    overflow: hidden; /* Hide content beyond max-height */
-    transition: max-height 0.4s ease-in-out, padding 0.4s ease-in-out; /* Smooth transition */
-    padding: 0 10px; /* No padding initially */
+    max-height: 0; 
+    overflow: hidden; 
+    transition: max-height 0.4s ease-in-out, padding 0.4s ease-in-out; 
+    padding: 0 10px; 
 }
 
 .accordion .faq-content p {
@@ -377,18 +377,17 @@ input[type="radio"] {
     display: none;
 }
 
-/* When the input is checked, apply these styles */
 input[type="radio"]:checked + label + .faq-content {
-    max-height: 500px; /* Large enough height to accommodate the content */
-    padding: 10px; /* Add padding when expanded */
+    max-height: 500px; 
+    padding: 10px; 
 }
 
-/* Optional: Add a hover effect for the labels */
+
 .accordion label:hover {
     background-color: #b51010;
 }
 
-/*table monitor*/
+
 .table-heads{
     color: #ffffff;
     
@@ -396,4 +395,54 @@ input[type="radio"]:checked + label + .faq-content {
 }
 td{
     color: white ;
+}
+
+
+.blog-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.blog-container h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.blog-post {
+    background: #ffffff27;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.blog-post h2 {
+    margin-bottom: 0.5rem;
+}
+
+.date {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.blog-post p {
+    margin-bottom: 1rem;
+}
+
+.blog-post a {
+    color: #c22424;
+    text-decoration: none;
+}
+
+.blog-post a:hover {
+    text-decoration: underline;
+}
+
+.blog-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 1rem;
 }
