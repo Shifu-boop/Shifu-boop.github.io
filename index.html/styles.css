@@ -359,13 +359,19 @@ input[type="radio"]:checked + label + .faq-content {
 }
 span {
     position: absolute;
-    right: 10px; /* Adjust this to move the button to the correct position */
-    top: 10px;   /* Adjust this to control how far from the top it appears */
+    right: -40px;
+    top: 30px;
     font-size: 25px;
     border-radius: 3px;
     color: #ffffff;
     padding: 3px 8px;
     cursor: pointer;
     background: #000000;
-    z-index: 1000; /* Ensures the button appears above other elements */
+}
+
+#bars {
+    background: rgba(255, 0, 0, 0);
+}
+#check {
+    display: none; 
 }
