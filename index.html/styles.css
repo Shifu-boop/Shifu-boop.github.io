@@ -7,89 +7,67 @@
 
 footer {
     background-color: #111111;
+    margin-top: auto;
 }
 
 .footerContainer {
     width: 100%;
-    
-    margin-top: auto;
-    
-    
 }
-.second-paragrah{
+
+.second-paragraph {
     padding-top: 20px;
 }
 
 a {
-    color: rgb(255, 255, 255)
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
 }
-.faq-link{
+
+.faq-link {
     color: #970808;
     text-decoration: none;
 }
 
-h1 {
-    font-family: Caslon, Mercury Display and Kis;
+h1, h2 {
+    font-family: Caslon, Mercury Display, Kis;
     color: rgb(255, 255, 255);
-    font-size: x;
-    margin-top: 1%;
     text-align: center;
     border-bottom: #ffffff;
 }
 
-p{
-    font-family: Arial, Helvetica, sans-serif;
-    color: #ffffff;
-    text-align: center;
-}
-
-
-p.main-paragrah1 {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #ffffff;
-    text-align: center;
-
-}
-p.main-paragrah2 {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #ffffff;
-   text-align: center;
-    margin-top: 50px;
-    margin-bottom: 20px;
-
-}
-
-a {
-    font-family: Arial, Helvetica, sans-serif;
-
+h1 {
+    font-size: x-large;
+    margin-top: 1%;
 }
 
 h2 {
-    font-family: Caslon, Mercury Display and Kis;
-color: #ffffff;
-text-align: center;
+    margin-bottom: 1rem;
 }
 
-h3{
-    font-family: Arial, Helvetica, sans-serif;
-    color: #ffffff;
-}
-
-ul {
+h3, p, ul {
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
     text-align: center;
+}
+
+ul {
     list-style-type: none;
 }
-.why-it-fits{
-    font-family: Arial, Helvetica, sans-serif;
+
+p.main-paragraph1, p.main-paragraph2 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.why-it-fits {
     margin-left: 30px;
     margin-top: 20px;
 }
 
 img {
-    position: r;
-
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .topnav {
@@ -102,13 +80,12 @@ img {
 
 .topnav a {
     background-color: rgba(125, 75, 75, 0);
-    padding-left: 2%;
-    padding-right: 2%;
+    padding: 0 2%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 120%;
 }
 
-.topnav-links{
+.topnav-links {
     text-decoration: none;
 }
 
@@ -131,7 +108,6 @@ img {
     opacity: 0.9;
 }
 
-/*hover effects on the social media icons*/
 .socialIcons a:hover {
     background-color: #111;
     transition: 0.5s;
@@ -139,16 +115,13 @@ img {
 
 .socialIcons a:hover i {
     color: rgb(255, 255, 255);
-    transition: 0.5;
 }
-
 
 .footernav {
     margin: 30px;
 }
 
 .footernav ul {
-
     display: flex;
     justify-content: center;
 }
@@ -177,13 +150,7 @@ img {
     font-family: 'Times New Roman', Times, serif;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/*sidebar code*/
+/* Sidebar */
 .container-side-bar {
     height: 100%;
     width: 250px;
@@ -211,7 +178,6 @@ ol {
 }
 
 ol li {
-    display: block;
     width: 100%;
 }
 
@@ -222,9 +188,7 @@ ol li a {
     display: block;
     font-size: 20px;
     letter-spacing: 1px;
-    position: relative;
     transition: 0.3s;
-    overflow: hidden;
 }
 
 ol li a i {
@@ -240,27 +204,8 @@ ol li:hover a {
     letter-spacing: 5px;
 }
 
-input {
--webkit-appearance: none;
-    visibility: hidden;
-    display: none;
-}
-
-span {
-    position: absolute;
-    right: -40px;
-    top: 30px;
-    font-size: 25px;
-    border-radius: 3px;
-    color: #ffffff;
-    padding: 3px 8px;
-    cursor: pointer;
-    background: #000000;
-}
-
 #bars {
     background: rgba(255, 0, 0, 0);
-
 }
 
 #check:checked~.container-side-bar {
@@ -271,74 +216,58 @@ span {
     display: none;
 }
 
-/*Fixed footer code*/
-html {
+/* Fixed Footer */
+html, body {
     height: 100%;
-}
-
-body {
-    min-height: 100%;
     display: flex;
     flex-direction: column;
-    min-height: 100%;
     background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/papyrus-dark.png);
+}
 
-}
-    
-
-footer {
-    margin-top: auto;
-}
-/*images*/
-.welcome-img{
-   display: block;
-    margin-left: auto;
-   margin-right: auto;
-}
-.gaming-pc{
-    width: 25%;
-
-}
-.thinking-man{width: 25%;
+/* Images */
+.welcome-img, .gaming-pc, .thinking-man, .profile-pic {
     display: block;
     margin-left: auto;
-   margin-right: auto;}
-.profile-pic{
-    border-radius: 50%;
-    margin-left: auto;
     margin-right: auto;
-    width: 10%;
-   }
-
-/*text main page*/
-.welcome{text-align: center;}
-/*text profile*/
-.introduction{
-    margin-top: 5%;
-   
-    
 }
-.active-page{
+
+.gaming-pc, .thinking-man {
+    width: 25%;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 10%;
+}
+
+/* Text */
+.welcome {
+    text-align: center;
+}
+
+.introduction {
+    margin-top: 5%;
+}
+
+.active-page {
     color: #ff0000;
     text-decoration: none;
 }
-.inactive-page{
+
+.inactive-page {
     text-decoration: none;
 }
-.text-box{
-    border:5px solid ;
-    border-width: 5px;
+
+.text-box {
+    border: 5px solid;
     color: rgb(255, 255, 255);
     padding: 1%;
-    height: auto;
     width: 300px;
-margin-left: auto;
-margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-
-/*faq dropdown text code*/
-
+/* FAQ Accordion */
 .accordion {
     margin: 20px auto;
     width: 600px;
@@ -362,14 +291,12 @@ margin-right: auto;
 }
 
 .accordion .faq-content {
-    max-height: 0; 
-    overflow: hidden; 
-    transition: max-height 0.4s ease-in-out, padding 0.4s ease-in-out; 
-    padding: 0 10px; 
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-in-out, padding 0.4s ease-in-out;
 }
 
 .accordion .faq-content p {
-    margin: 0;
     padding: 10px 0;
 }
 
@@ -378,35 +305,19 @@ input[type="radio"] {
 }
 
 input[type="radio"]:checked + label + .faq-content {
-    max-height: 500px; 
-    padding: 10px; 
+    max-height: 500px;
+    padding: 10px;
 }
-
 
 .accordion label:hover {
     background-color: #b51010;
 }
 
-
-.table-heads{
-    color: #ffffff;
-    
-    
-}
-td{
-    color: white ;
-}
-
-
+/* Blog Post */
 .blog-container {
     width: 80%;
     margin: 0 auto;
     padding: 2rem 0;
-}
-
-.blog-container h1 {
-    text-align: center;
-    margin-bottom: 2rem;
 }
 
 .blog-post {
@@ -445,4 +356,16 @@ td{
     height: auto;
     border-radius: 5px;
     margin-bottom: 1rem;
+}
+span {
+    position: absolute;
+    right: 10px; /* Adjust this to move the button to the correct position */
+    top: 10px;   /* Adjust this to control how far from the top it appears */
+    font-size: 25px;
+    border-radius: 3px;
+    color: #ffffff;
+    padding: 3px 8px;
+    cursor: pointer;
+    background: #000000;
+    z-index: 1000; /* Ensures the button appears above other elements */
 }
